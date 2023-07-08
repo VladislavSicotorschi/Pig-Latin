@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    background-color: lightblue;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.header_icon {
+    height: 100px;
+}
+.main-form {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 35%;
+    right: 50%;
+    margin: auto;
+}
+
+.text-input {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+}
+
+.text-output {
+    background-color: rgb(116, 116, 117);
+    color: rgb(185, 183, 185);
+    padding: 15px;
+}
